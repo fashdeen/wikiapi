@@ -17,7 +17,9 @@ $(document).ready(function(){
              } else{
     
                 $.ajax({ 
-                    url:"http://localhost:3000/api/create_user",
+                   // url:"http://localhost:3000/api/create_user",
+                    url:"http://" + process.env.Location_Address + ":3000/api/create_user",
+                    //url:"http://" +process.env.Location_Address + ":" + process.env.Port_Address + "/api/create_user",
                     method:"post",
                     headers: {"x-api-key": "231413"},
                     data:{name : name, address : address , country : country, eaddress : eaddress},

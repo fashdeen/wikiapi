@@ -11,7 +11,6 @@ module.exports = {
     // smtp_user : 'mentor@fashcodeconsult.com',
     // smtp_password : 'Fashcode!234'
 
-
     smtp_host : process.env.smtp_host,
     smtp_port : process.env.smtp_port,
     sender_email : process.env.sender_email,

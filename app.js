@@ -48,6 +48,7 @@ require('./app/routes/auth_routes')(app);
 
 
 // confirm that the server is running and setup
-app.listen(3000, function(){
-console.log("Server Stated");
+//app.listen(3000, function(){
+app.listen(process.env.Port_Address, function (){
+console.log("Server Stated on " + process.env.Port_Address) ;
 });

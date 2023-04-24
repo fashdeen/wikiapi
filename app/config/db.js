@@ -23,8 +23,6 @@ module.exports =conn;
 
 
 
-
-
 // let configdb = {
 //     host: 'localhost',
 //     user: 'sqluser',
