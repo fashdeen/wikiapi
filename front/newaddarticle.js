@@ -20,7 +20,17 @@ $(document).ready(function(){
         return false;  
         }
 
-        //  if (name == "") {
+        
+        };
+    
+});
+});
+
+
+
+
+
+//  if (name == "") {
         //     alert("Ensure you input name!");
         //     return false;
         //      } 
@@ -48,12 +58,4 @@ $(document).ready(function(){
                 
         //         }
         //     });
-
-        //  }
-
-        });
-    
-    
-});
-
 

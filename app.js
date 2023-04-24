@@ -5,7 +5,10 @@ const dotenv = require("dotenv");
 const cors = require("cors");
 dotenv.config();
 //const mysql = require("mysql");
-const bodyParser = require("body-Parser");
+//const bodyParser = require("body-Parser");
+
+const bodyParser = require("body-parser");
+
 const ejs = require("ejs");
 
 
